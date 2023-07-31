@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>ChatUp</title>
+</head>
+<body>
+   <nav class="navbar">
+    <div class="logo">ChatUp</div>
+    <ul>
+        <div class="menu">
+        <li><a href="/front.html">Home</a></li>
+        <li><a href="/*">About</a></li>
+        <li><a href="/login.html">Login</a></li>
+        </div>
+    </ul>
+   </nav>
+   <header>
+    <div class="bg-img"><img class="bg-img" src="\images\bg2.jpg" alt="error"></div>
+   </header>
+
+   <h3 class="chatup">ChatUp</h3>
+  <div id="chat-container">
+    <div id="chat-messages"></div>
+    <div id="chat-input">
+      <input type="text" id="message-input" placeholder="Type your message">
+      <button id="send-button">Send</button>
+    </div>
+  </div>
+  <script src="chat.js"></script>
+
+  <h3 class="cmt">Project Management Tool</h3>
+  <form id="contentForm">
+    <label for="title">Title:</label>
+    <input type="text" id="title" required>
+    <label for="content">Content:</label>
+    <textarea id="content" required></textarea>
+    <div class="btn">
+    <button type="submit">Save</button>
+    </div>
+  </form>
+  <div id="contentList"></div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
